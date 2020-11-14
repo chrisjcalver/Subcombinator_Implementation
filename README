@@ -1,0 +1,28 @@
+This is an abstract machine for demonstration purposes of the subcombinator implementation of the lambda calclulus.
+
+To run this code Python 3 must be installed with the following libraries installed:
+
+pygraphviz
+matplotlib
+copy
+
+Pygraphviz can be difficult to install. See the below link for full instructions.
+
+ https://pygraphviz.github.io/documentation/pygraphviz-1.3.1/install.html
+
+Note that graphviz must first be installed, directly to the system and outside of the Python environment.
+
+https://www.graphviz.org/download/
+
+
+The following commands should install all dependencies on an Ubuntu operating system:
+
+sudo apt install python3-pip
+
+sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config
+
+pip install pygraphviz
+
+pip install matplotlib
+
+Note that if unable to install the pygraphviz package the import can be deleted and as long as the runsteps function is always called with False as an input the library will not be used.
